@@ -1,0 +1,22 @@
+// Grid made with CSS Grid Module
+
+@supports (display: grid) {
+.site {
+    display: grid;
+    grid-template-columns: 20em 1fr; // 4 + 8 = 12 col
+    grid-template-areas: "nav page";
+    grid-gap:2em;
+
+}
+.site-header {
+    grid-area: nav;
+    background-color: #aaa;
+
+
+}
+.site-content {
+    grid-area: page;
+    background-color: red;
+}
+
+}

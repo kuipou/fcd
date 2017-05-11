@@ -21,8 +21,8 @@
   * Edit the variables as per your project requirements.
   */
 
-var project             = 'foo'; // Project Name.
-var projecturl          = 'foo.dev'; // Project URL. Could be something like localhost:8888.
+var project             = 'blog'; // Project Name.
+var projecturl          = 'blog.dev'; // Project URL. Could be something like localhost:8888.
 
 
 var styleSRC            = './assets/sass/style.scss'; // Path to main .scss file
